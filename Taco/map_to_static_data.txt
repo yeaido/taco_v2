@@ -1,0 +1,14 @@
+Id -> ?
+Name -> [Folder name]
+NativeId -> solarSystemID
+X -> center (value 1)
+Y -> center (value 3)
+Z -> 0
+ConnectedTo:
+IsRegional
+ToSystemId -> Id of target
+ToSystemNativeId -> NativeId of target
+
+parse each system and connected to (desto numbers)
+figure out which systems destos are actually connected
+switch connected to info with new system id and native system id using dictionary or hashmap of ID to names or something
